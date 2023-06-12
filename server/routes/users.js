@@ -26,7 +26,7 @@ router.post("/", async (req, res) => {
 			userId: user._id,
 			token: crypto.randomBytes(32).toString("hex"),
 		}).save();
-		const url = `${process.env.BASE_URL}users/${user.id}/verify/${token.token}`;
+		const url = `${process.env.BASE_URL}api/users/${user.id}/verify/${token.token}`;
 		await sendEmail(user.email, "Verify Email", url);
 
 		res
@@ -49,7 +49,7 @@ router.get("/:id/verify/:token/", async (req, res) => {
 		});
 		if (!token) return res.status(400).send({ message: "Invalid link" });
 
-		await User.updateOne({ _id: user._id, verified: true });
+		await User.updateOne({ _id: user._id}, {$set:{verified: true}});
 		await token.remove();
 
 		res.status(200).send({ message: "Email verified successfully" });
@@ -57,5 +57,19 @@ router.get("/:id/verify/:token/", async (req, res) => {
 		res.status(500).send({ message: "Internal Server Error" });
 	}
 });
+router.get('/email', async (req, res) => {
+	try {
+	  // Query the user collection to retrieve the email
+	  const user = await User.findOne(); // Add appropriate conditions if necessary
+	  if (!user) {
+		return res.status(404).json({ error: 'User not found' });
+	  }
+	  const email = user.email;
+	  res.json({ email });
+	} catch (error) {
+	  res.status(500).json({ error: error.message });
+	}
+  });
+  
 
 module.exports = router;

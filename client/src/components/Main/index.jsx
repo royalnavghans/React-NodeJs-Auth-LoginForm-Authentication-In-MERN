@@ -1,8 +1,26 @@
 import { useNavigate } from "react-router-dom";
 import styles from "./styles.module.css";
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 
+
+	
 
 const Main = () => {
+	const [email, setEmail] = useState('');
+  
+	useEffect(() => {
+	  const fetchUserEmail = async () => {
+		try {
+		  const response = await axios.get('http://localhost:8080/api/users/email');
+		  setEmail(response.data.email);
+		} catch (error) {
+		  // Handle error
+		}
+	  };
+	
+	  fetchUserEmail();
+	}, []);
 	const navigate=useNavigate();
 	const handleLogout = () => {
 		localStorage.removeItem("token");
@@ -18,8 +36,9 @@ const Main = () => {
 		<div className={styles.main_container}>
 			<nav className={styles.navbar}>
 				<h1>Prasad E-learning Platform</h1>
+				<span>Hello {email}!!</span>
 				<button className={styles.white_btn} onClick={handleLogout}>
-					Logout
+					Logout 
 				</button>
 			</nav>
 			
