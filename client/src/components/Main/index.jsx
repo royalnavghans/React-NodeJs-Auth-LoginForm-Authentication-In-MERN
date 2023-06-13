@@ -12,7 +12,7 @@ const Main = () => {
 	useEffect(() => {
 	  const fetchUserEmail = async () => {
 		try {
-		  const response = await axios.get('http://localhost:8080/api/users/email');
+		  const response = await axios.get('http://localhost:8081/api/users/email');
 		  setEmail(response.data.email);
 		} catch (error) {
 		  // Handle error
