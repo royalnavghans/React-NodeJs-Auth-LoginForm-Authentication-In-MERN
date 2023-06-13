@@ -34,7 +34,7 @@ const Login = () => {
 			<div className={styles.login_form_container}>
 				<div className={styles.left}>
 					<form className={styles.form_container} onSubmit={handleSubmit}>
-						<h1 style={{color:"white"}}>Login to Your Account</h1>
+						<h1 style={{color:"white"}}>Login to Enlightia</h1>
 						<input
 							type="email"
 							placeholder="Email"
@@ -63,7 +63,7 @@ const Login = () => {
 					</form>
 				</div>
 				<div className={styles.right}>
-					<h2 style={{color:"white"}}>New Member ?</h2>
+					<h2 style={{color:"white"}}>New to Enlightia ?</h2>
 					<Link to="/signup">
 						<button type="button" className={styles.white_btn}>
 							Sign Up

@@ -1,7 +1,12 @@
 import styles from "./styles.module.css";
-
+import { useNavigate } from "react-router-dom";
 
 const CBSE10thSyllabus= () => {
+	const navigate=useNavigate();
+
+	const handleSubmit=(path)=>{
+	  navigate(path)
+	}
   
 	const handleLogout = () => {
 		localStorage.removeItem("token");
@@ -18,13 +23,12 @@ const CBSE10thSyllabus= () => {
 					Logout
 				</button>
 			</nav>
-            <div><button className={styles.green_btn}>Odia</button></div>
-			<br></br><br></br>
+            
             <div><button className={styles.green_btn}>English</button></div>
 			<br></br><br></br>
 			<div><button className={styles.green_btn}>Hindi</button></div>
 			<br></br><br></br>
-			<div><button className={styles.green_btn}>Math</button></div>
+			<div><button className={styles.green_btn}onClick={()=>handleSubmit('/path-math')}>Math</button></div>
 			<br></br><br></br>
 			<div><button className={styles.green_btn}>Science</button></div>
 			<br></br><br></br>

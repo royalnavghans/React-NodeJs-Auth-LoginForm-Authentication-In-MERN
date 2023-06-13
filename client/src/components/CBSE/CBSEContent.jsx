@@ -22,19 +22,19 @@ const handleSubmit=(path) =>{
 					Logout
 				</button>
 			</nav>
-            <div><button className={styles.green_btn}onClick={()=>handleSubmit('/path1')}>vi</button></div>
+            <div><button className={styles.green_btn}onClick={()=>handleSubmit('/pathcbse1')}>vi</button></div>
 			<br></br><br></br>
-            <div><button className={styles.green_btn}onClick={()=>handleSubmit('/path2')}>vii</button></div>
+            <div><button className={styles.green_btn}onClick={()=>handleSubmit('/pathcbse2')}>vii</button></div>
 			<br></br><br></br>
-            <div><button className={styles.green_btn}onClick={()=>handleSubmit('/path3')}>viii</button></div>
+            <div><button className={styles.green_btn}onClick={()=>handleSubmit('/pathcbse3')}>viii</button></div>
 			<br></br><br></br>
-            <div><button className={styles.green_btn}onClick={()=>handleSubmit('/path4')}>ix</button></div>
+            <div><button className={styles.green_btn}onClick={()=>handleSubmit('/pathcbse4')}>ix</button></div>
 			<br></br><br></br>
-            <div><button className={styles.green_btn}onClick={()=>handleSubmit('/path5')}>x</button></div>
+            <div><button className={styles.green_btn}onClick={()=>handleSubmit('/pathcbse5')}>x</button></div>
 			<br></br><br></br>
-            <div><button className={styles.green_btn}onClick={()=>handleSubmit('/path5')}>xi</button></div>
+            <div><button className={styles.green_btn}onClick={()=>handleSubmit('/pathcbse6')}>xi</button></div>
 			<br></br><br></br>
-			<div><button className={styles.green_btn}onClick={()=>handleSubmit('/path5')}>xii</button></div>
+			<div><button className={styles.green_btn}onClick={()=>handleSubmit('/pathcbse7')}>xii</button></div>
 			<br></br><br></br>
         </div>
 			

@@ -1,0 +1,29 @@
+Question 1: Define an irrational number.
+Answer: An irrational number is a number that cannot be expressed as a fraction (ratio) of two integers. It cannot be written in the form of p/q, where p and q are integers and q is not equal to zero. Examples of irrational numbers include √2, π (pi), and e (Euler's number).
+
+Question 2: State the Euclidean Division Lemma.
+Answer: The Euclidean Division Lemma states that for any two positive integers 'a' and 'b,' there exist unique integers 'q' and 'r' such that a = bq + r, where 0 ≤ r < b. Here, 'a' is the dividend, 'b' is the divisor, 'q' is the quotient, and 'r' is the remainder.
+
+Question 3: Prove that √3 is an irrational number.
+Answer: To prove that √3 is an irrational number, we assume the opposite, i.e., √3 is rational. So, we can write √3 = p/q, where p and q are coprime integers. Squaring both sides gives us 3 = (p^2/q^2). Rearranging the equation, we get p^2 = 3q^2. This implies that p^2 is divisible by 3, which means p must be divisible by 3. Therefore, p can be written as p = 3k, where k is an integer. Substituting p = 3k in the equation p^2 = 3q^2 gives us (3k)^2 = 3q^2, which simplifies to 9k^2 = 3q^2. Dividing both sides by 3, we get 3k^2 = q^2. This implies that q^2 is divisible by 3, which means q must also be divisible by 3. However, this contradicts the assumption that p and q are coprime. Hence, our assumption that √3 is rational is false, and thus, √3 is an irrational number.
+
+Question 4: State the Fundamental Theorem of Arithmetic.
+Answer: The Fundamental Theorem of Arithmetic states that every composite number can be expressed as a unique product of prime numbers, up to the order of factors. In other words, any composite number can be factorized into a unique set of prime factors.
+
+Question 5: Explain the concept of HCF (Highest Common Factor) and LCM (Least Common Multiple).
+Answer: The HCF (Highest Common Factor) of two or more numbers is the greatest number that divides each of them without leaving a remainder. The LCM (Least Common Multiple) of two or more numbers is the smallest multiple that is divisible by each of them. HCF and LCM are fundamental concepts used in various arithmetic operations, including simplifying fractions, finding equivalent fractions, and solving problems related to ratios and proportions.
+
+Question 6: What is a rational number?
+Answer: A rational number is a number that can be expressed as a fraction (ratio) of two integers. It can be written in the form of p/q, where p and q are integers and q is not equal to zero. Rational numbers can be terminating (having a finite number of digits after the decimal point) or repeating (having a repeating pattern of digits after the decimal point).
+
+Question 7: Define a prime number.
+Answer: A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself. In other words, a prime number cannot be divided evenly by any other number except 1 and itself. Examples of prime numbers include 2, 3, 5, 7, 11, and so on.
+
+Question 8: Prove that there are infinitely many prime numbers.
+Answer: To prove that there are infinitely many prime numbers, we can use a proof by contradiction. Assume that there are finitely many prime numbers, and let p₁, p₂, ..., pₙ be all the prime numbers. Now, consider the number N = p₁ * p₂ * ... * pₙ + 1. N is greater than any of the prime numbers p₁, p₂, ..., pₙ. If N is prime, then we have found a prime number greater than pₙ, which contradicts the assumption. If N is not prime, it must have a prime factor that is greater than pₙ. Again, this contradicts the assumption that p₁, p₂, ..., pₙ are all the prime numbers. Therefore, there must be infinitely many prime numbers.
+
+Question 9: State the Euclid's Division Lemma.
+Answer: Euclid's Division Lemma states that for any two positive integers 'a' and 'b,' there exist unique non-negative integers 'q' and 'r' such that a = bq + r, where 0 ≤ r < b. This lemma is a more general version of the Euclidean Division Lemma and allows for a wider range of values for the quotient 'q' and remainder 'r'.
+
+Question 10: What is the Euclidean Algorithm?
+Answer: The Euclidean Algorithm is a method used to find the HCF (Highest Common Factor) of two or more numbers. It involves repeatedly dividing the larger number by the smaller number and taking the remainder, until the remainder becomes zero. The HCF is then found to be the last non-zero remainder obtained during this process.

@@ -23,6 +23,7 @@ import CBSE9thSyllabus from "./components/CBSE/CBSE-Syllabus/CBSE9thSyllabus";
 import CBSE10thSyllabus from "./components/CBSE/CBSE-Syllabus/CBSE10thSyllabus";
 import CBSE11thSyllabus from "./components/CBSE/CBSE-Syllabus/CBSE11thSyllabus";
 import CBSE12thSyllabus from "./components/CBSE/CBSE-Syllabus/CBSE12thSyllabus";
+import CBSE10thMath from "./components/CBSE/CBSE-Syllabus/CBSE-MATH/CBSE10thMath";
 
 function App() {
 	const user = localStorage.getItem("token");
@@ -46,13 +47,14 @@ function App() {
 			<Route path="/path4" element={<CHSE10thSyllabus/>}/>
 			<Route path="/path5" element={<CHSE11thSyllabus/>}/>
 			<Route path="/path6" element={<CHSE12thSyllabus/>}/>
-			<Route path="/path1" element={<CBSE6thSyllabus/>}/>
-			<Route path="/path2" element={<CBSE7thSyllabus/>}/>
-			<Route path="/path3" element={<CBSE8thSyllabus/>}/>
-			<Route path="/path4" element={<CBSE9thSyllabus/>}/>
-			<Route path="/path5" element={<CBSE10thSyllabus/>}/>
-			<Route path="/path6" element={<CBSE11thSyllabus/>}/>
-			<Route path="/path7" element={<CBSE12thSyllabus/>}/>
+			<Route path="/pathcbse1" element={<CBSE6thSyllabus/>}/>
+			<Route path="/pathcbse2" element={<CBSE7thSyllabus/>}/>
+			<Route path="/pathcbse3" element={<CBSE8thSyllabus/>}/>
+			<Route path="/pathcbse4" element={<CBSE9thSyllabus/>}/>
+			<Route path="/pathcbse5" element={<CBSE10thSyllabus/>}/>
+			<Route path="/pathcbse6" element={<CBSE11thSyllabus/>}/>
+			<Route path="/pathcbse7" element={<CBSE12thSyllabus/>}/>
+			<Route path="/path-math" element={<CBSE10thMath/>}/>
 			
 		</Routes>
 	);

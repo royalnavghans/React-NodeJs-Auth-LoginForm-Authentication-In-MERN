@@ -1,6 +1,7 @@
 import styles from "./styles.module.css";
 
 
+
 const CBSE6thSyllabus= () => {
   
 	const handleLogout = () => {

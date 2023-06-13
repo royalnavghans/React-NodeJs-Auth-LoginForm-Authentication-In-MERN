@@ -1,0 +1,47 @@
+1 Mark
+1. State the property of closure of rational numbers under addition.
+2. State the property of closure of rational numbers under multiplication.
+3. Define an irrational number.
+4. Give an example of an irrational number.
+5. State the property of commutativity of addition for rational numbers.
+6. State the property of commutativity of multiplication for rational numbers.
+7. State the property of associativity of addition for rational numbers.
+8. State the property of associativity of multiplication for rational numbers.
+9. Define a prime number.
+10. Give an example of a prime number.
+
+2 Mark
+1. Prove that √2 is an irrational number.
+2. If √5 is irrational, what can you say about √(5/3)?
+3. State and prove the Euclid's Division Lemma.
+4. State and prove the Fundamental Theorem of Arithmetic.
+5. Prove that the sum of three consecutive natural numbers is always divisible by 3.
+6. If p is a prime number, what can you say about the value of √p?
+7. State and prove the property of the commutativity of addition for rational numbers.
+8. Prove that the square of any rational number is either positive or zero.
+9. Prove that if p is a rational number and q is an irrational number, then their product pq is always irrational.
+10. State and prove the property of the commutativity of multiplication for rational numbers.
+
+3 Mark
+1. State and prove the property of the associativity of addition for rational numbers.
+2. Prove that the cube root of any prime number is irrational.
+3. Prove that if a and b are two irrational numbers, then their sum a + b is also irrational.
+4. State and prove the property of the associative law of addition for rational numbers.
+5. Prove that if p and q are rational numbers, then their product pq is also a rational number.
+6. Prove that the sum of the squares of any two consecutive natural numbers is always odd.
+7. If p is a prime number, can √p be expressed in the form a/b, where a and b are integers? Justify your answer.
+8. Prove that there are infinitely many irrational numbers between any two rational numbers.
+9. State and prove the Rational Root Theorem.
+10. Prove that the square root of any prime number (other than a perfect square) is irrational.
+
+5 Mark
+1. Prove that the sum of a rational number and an irrational number is always irrational.
+2. Prove that the sum of two irrational numbers can be rational.
+3. Prove that √3 is irrational using Euclid's Division Lemma.
+4. Prove that there are infinitely many prime numbers.
+5. Prove that if p is a rational number and q is an irrational number, then their product pq is always irrational.
+6. Prove that if a and b are two irrational numbers, then their product ab is also irrational.
+7. Prove that the square root of any prime number (other than a perfect square) is irrational.
+8. Prove that the cube root of any prime number is irrational.
+9. Prove that the sum of the cubes of any three consecutive natural numbers is divisible by 9.
+10. Prove that there are infinitely many irrational numbers between any two rational numbers.
